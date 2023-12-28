@@ -8,8 +8,8 @@ const TopBar = ({ toggleTopBar }: { toggleTopBar: boolean }) => {
     <div
       className={
         toggleTopBar
-          ? "fixed top-24 left-0 bg-black w-full duration-300 transition-all overflow-hidden"
-          : "fixed -top-60 left-0 bg-black w-full duration-300 transition-all overflow-hidden"
+          ? "fixed top-[5.55rem] left-0 bg-black w-full duration-300 transition-all overflow-hidden md:hidden"
+          : "fixed -top-60 left-0 bg-black w-full duration-300 transition-all overflow-hidden md:hidden"
       }
     >
       <div className="p-5">

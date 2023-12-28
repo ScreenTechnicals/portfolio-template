@@ -12,7 +12,7 @@ const Header = () => {
   const [toggleTopBar, setToggleTopBar] = useState<boolean>(false);
 
   return (
-    <header className="w-full bg-black md:py-5 md:px-20 p-5 flex items-center justify-between md:border-none border-b z-[9999] border-[#292929]">
+    <header className="w-full bg-black md:py-5 md:px-20 p-5 flex items-center justify-between md:border-none border-b z-[9999] border-[#292929] md:static sticky top-0 left-0">
       <div className="flex items-center gap-1 md:gap-2">
         <Link href={"/"}>
           <Image
