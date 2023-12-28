@@ -56,7 +56,7 @@ export default function Home() {
               alt="image not loading..."
               width={500}
               height={500}
-              className="w-[100%] brightness-95 contrast-150 grayscale-[1] hover:grayscale-0 hover:contrast-100 transition-all duration-500 rounded-md object-cover"
+              className="w-[100%] contrast-125 grayscale-[1] hover:grayscale-0 hover:contrast-100 transition-all duration-500 rounded-md object-cover"
             />
             <div className="absolute showImage top-0 left-0  h-full bg-[#161616]"></div>
           </div>
