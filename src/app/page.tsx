@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaYoutube } from "react-icons/fa";
+import { TfiDownload } from "react-icons/tfi";
 
 export default function Home() {
   return (
@@ -60,6 +61,70 @@ export default function Home() {
             />
             <div className="absolute showImage top-0 left-0  h-full bg-[#161616]"></div>
           </div>
+        </div>
+      </div>
+      {/* 2 */}
+      <div className="w-full flex items-center justify-center md:justify-end pb-10 pt-10 md:pt-20 gap-3 flex-wrap">
+        <div className="flex items-center justify-center gap-3">
+          <div>
+            <Image
+              src={"/images/img1.svg"}
+              alt=""
+              className="rounded-md"
+              width={250}
+              height={250}
+            />
+          </div>
+          <div>
+            <Image
+              className="rounded-md"
+              src={"/images/img1.svg"}
+              alt=""
+              width={250}
+              height={250}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="rounded-md w-[350px] h-[345px] object-cover overflow-hidden">
+            <Image
+              src={"/images/img1.svg"}
+              alt=""
+              className="w-[100%]"
+              width={350}
+              height={250}
+            />
+          </div>
+        </div>
+      </div>
+      {/* 3 */}
+      <div className="flex w-full flex-wrap gap-5 md:justify-end md:py-5">
+        <div className="md:block hidden">
+          <button className="border rounded-full text-sm py-4 px-6 font-bold border-[#292929] flex items-center gap-2 justify-center">
+            <span>
+              <TfiDownload />
+            </span>
+            <span>Download Resume</span>
+          </button>
+        </div>
+        <div className="w-[650px]">
+          <p className="text-2xl font-[600] mb-5">
+            A Chronicle of Passion, Persistence, and Artistry
+          </p>
+          <p className="text-sm font-[300] text-gray-400">
+            A seasoned technology enthusiast with a passion for crafting
+            seamless digital experiences. As a versatile web developer and
+            software engineer, I specialize in bringing ideas to life through
+            code and creativity.
+          </p>
+        </div>
+        <div className="md:hidden">
+          <button className="border rounded-full text-sm py-4 px-6 font-bold border-[#292929] flex items-center gap-2 justify-center">
+            <span>
+              <TfiDownload />
+            </span>
+            <span>Download Resume</span>
+          </button>
         </div>
       </div>
     </main>
