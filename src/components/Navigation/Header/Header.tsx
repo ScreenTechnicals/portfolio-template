@@ -12,11 +12,11 @@ const Header = () => {
   const [toggleTopBar, setToggleTopBar] = useState<boolean>(false);
 
   return (
-    <header className="w-full bg-black md:py-5 md:px-20 p-5 flex items-center justify-between md:border-none border-b z-[9999] border-[#292929] md:static sticky top-0 left-0">
-      <div className="flex items-center gap-1 md:gap-2">
+    <header className="w-full bg-black xl:py-5 xl:px-20 p-5 flex items-center justify-between xl:border-none border-b z-[9999] border-[#292929] xl:static sticky top-0 left-0">
+      <div className="flex items-center gap-1 xl:gap-2">
         <Link href={"/"}>
           <Image
-            className="md:w-[45px] w-[40px]"
+            className="xl:w-[45px] w-[40px]"
             src={"/images/logo.svg"}
             alt="logo"
             width={45}
@@ -25,12 +25,12 @@ const Header = () => {
         </Link>
         <div>
           <p className=" text-[#989898] font-[300] text-sm">{myName}</p>
-          <p className="font-[500] text-[13px] md:text-sm uppercase">
+          <p className="font-[500] text-[13px] xl:text-sm uppercase">
             {profession}
           </p>
         </div>
       </div>
-      <nav className="py-3 md:block hidden px-4 border rounded-full space-x-10 border-[#292929]">
+      <nav className="py-3 xl:block hidden px-4 border rounded-full space-x-10 border-[#292929]">
         {navLinks?.map((link, index) => (
           <Link href={link.path} key={index} className="p-2">
             <span className="capitalize hover:text-[#fff] transition-all font-[200] text-sm text-gray-400">
@@ -39,7 +39,7 @@ const Header = () => {
           </Link>
         ))}
       </nav>
-      <div className="md:block hidden">
+      <div className="xl:block hidden">
         <Link
           href={"/contact"}
           className="flex items-center justify-center gap-1"
@@ -50,7 +50,7 @@ const Header = () => {
           </span>
         </Link>
       </div>
-      <div className="md:hidden">
+      <div className="xl:hidden">
         <button
           onClick={() => {
             setToggleTopBar(!toggleTopBar);
