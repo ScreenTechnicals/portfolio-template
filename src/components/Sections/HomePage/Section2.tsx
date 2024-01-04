@@ -9,14 +9,14 @@ const Section2 = () => {
           <Image
             src={"/images/img1.png"}
             alt=""
-            className="rounded-md"
+            className="rounded-md w-[250px] 2xl:w-[322px]"
             width={250}
             height={250}
           />
         </div>
         <div>
           <Image
-            className="rounded-md"
+            className="rounded-md w-[250px] 2xl:w-[322px]"
             src={"/images/img1.png"}
             alt=""
             width={250}
@@ -25,7 +25,7 @@ const Section2 = () => {
         </div>
       </div>
       <div>
-        <div className="rounded-md w-[350px] h-[345px] object-cover overflow-hidden">
+        <div className="rounded-md w-[350px] h-[345px] object-cover overflow-hidden 2xl:w-[450px] 2xl:h-[445px]">
           <Image
             src={"/images/img1.png"}
             alt=""

@@ -5,20 +5,20 @@ import { FaYoutube } from "react-icons/fa";
 
 const Section1 = () => {
   return (
-    <div className="w-full xl:bg-[#0c0c0c] py-5 rounded-md flex items-center justify-between xl:py-5 xl:px-10 xl:gap-2 overflow-hidden xl:flex-row flex-col-reverse relative">
+    <div className="w-full xl:bg-[#0c0c0c] py-5 rounded-md flex items-center justify-between xl:py-5 xl:px-10 2xl:px-20 xl:gap-2 overflow-hidden xl:flex-row flex-col-reverse relative">
       <div className="xl:w-[65%]">
         <div className="space-x-2">
-          <span className="border border-[#292929] py-2 px-4 text-sm rounded-full">
+          <span className="border border-[#292929] py-2 px-4 2xl:text-lg text-sm rounded-full">
             Development
           </span>
-          <span className="border border-[#292929] py-2 px-4 text-sm rounded-full">
+          <span className="border border-[#292929] py-2 px-4 2xl:text-lg text-sm rounded-full">
             SEO
           </span>
-          <span className="border border-[#292929] py-2 px-4 text-sm rounded-full">
+          <span className="border border-[#292929] py-2 px-4 2xl:text-lg text-sm rounded-full">
             Design
           </span>
         </div>
-        <p className="my-5 xl:my-10 text-3xl xl:text-7xl font-[700] text-white">
+        <p className="my-5 2xl:text-8xl xl:my-10 text-3xl xl:text-7xl font-[700] text-white">
           Crafting unforgettable digital journeys
         </p>
         <div className="mb-5 xl:hidden">
@@ -29,7 +29,7 @@ const Section1 = () => {
             transforming ideas into interactive experiences.
           </p>
         </div>
-        <button className="hover:bg-black hover:border-[#6e6e6e] hover:text-white transition-all border border-white rounded-full text-sm bg-white text-black py-3 px-6">
+        <button className="hover:bg-black hover:border-[#6e6e6e] hover:text-white transition-all border border-white rounded-full 2xl:text-xl text-sm bg-white text-black py-3 px-6">
           Work With Me
         </button>
       </div>
@@ -43,14 +43,14 @@ const Section1 = () => {
       </Link>
       <div className="">
         <div className="mb-10 xl:block hidden">
-          <p className="font-[300] text-base text-gray-400 tracking-wider text-end text-nowrap">
+          <p className="font-[300] 2xl:text-xl text-base text-gray-400 tracking-wider text-end text-nowrap">
             I’m a web developer & software engineer✌,
           </p>
-          <p className="font-[300] text-base text-gray-400 tracking-wider text-end text-nowrap">
+          <p className="font-[300] 2xl:text-xl text-base text-gray-400 tracking-wider text-end text-nowrap">
             transforming ideas into interactive experiences.
           </p>
         </div>
-        <div className="xl:mb-0 mb-6 w-[450px] h-[400px] xl:h-[550px] overflow-hidden rounded-md xl:flex items-center justify-center relative">
+        <div className="xl:mb-0 mb-6 w-[450px] h-[400px] xl:h-[550px] 2xl:w-[550px] 2xl:h-[750px] overflow-hidden rounded-md xl:flex items-center justify-center relative">
           <Image
             src={"/images/img1.png"}
             alt="image not loading..."
