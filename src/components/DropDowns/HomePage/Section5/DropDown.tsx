@@ -3,9 +3,9 @@ import React from "react";
 
 const DropDown = () => {
   return (
-    <button className="cursor-pointer group block border-b border-[#181818] pb-4 focus:border-[#444444] transition-all">
+    <button className="w-full cursor-pointer group block border-b border-[#181818] pb-4 focus:border-[#444444] transition-all">
       <span className="flex items-center justify-between">
-        <span className="flex items-center gap-10">
+        <span className="flex items-center gap-2 md:gap-10">
           <span className="block">
             <Image
               src={"/images/s1.svg"}
@@ -25,7 +25,7 @@ const DropDown = () => {
           <span className="w-[15px] md:w-[25px] block h-[1px] rotate-90 transition-all"></span>
         </span>
       </span>
-      <span className="block text-left overflow-hidden group-focus:h-[100px] h-0 duration-1000 transition-all ">
+      <span className="block text-left overflow-hidden group-focus:h-[150px] h-0 duration-1000 transition-all ">
         <span className="px-5 text-gray-400 text-xs md:text-lg pt-7 pb-10 block">
           The artistry and precision of Full-Stack Development. From crafting
           interactive front-end experiences that captivate users to architecting

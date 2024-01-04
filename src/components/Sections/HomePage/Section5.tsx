@@ -4,9 +4,9 @@ import React from "react";
 
 const Section5 = () => {
   return (
-    <div className="flex w-full mb-20 min-h-[50vh] justify-between md:px-10 md:flex-row flex-col">
+    <div className="flex w-full mb-20 min-h-[70vh] justify-between md:px-10 md:flex-row flex-col">
       <div className="md:w-[35%] flex flex-col justify-between gap-5">
-        <p className="text-6xl font-[400]">What I Do</p>
+        <p className="text-4xl md:text-6xl font-[400]">What I Do</p>
         <p className="text-lg text-gray-400">
           I specialize in crafting custom solutions that seamlessly blend
           innovation with functionality.
@@ -17,7 +17,7 @@ const Section5 = () => {
         <DropDown />
         <DropDown />
         <DropDown />
-        <DropDown />
+        {/* <DropDown /> */}
       </div>
     </div>
   );
