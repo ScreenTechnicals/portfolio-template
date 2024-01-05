@@ -3,6 +3,8 @@
 type Project = {
   name: string;
   description: string;
+  subTitle?: "";
+  year?: "";
   previewImage: string;
   githubLink?: string;
   demoLink?: string;

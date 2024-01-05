@@ -7,7 +7,7 @@ import Section6 from "@/components/Sections/HomePage/Section6";
 
 export default function Home() {
   return (
-    <main className="p-5 2xl:px-10 2xl:py-5 w-full">
+    <main className="p-5 2xl:px-10 2xl:py-5 w-full min-h-screen">
       <Section1 />
       <Section2 />
       <Section3 />
