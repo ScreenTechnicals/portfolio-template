@@ -3,7 +3,7 @@ import React from "react";
 
 const DropDown = () => {
   return (
-    <button className="w-full cursor-pointer group block border-b border-[#181818] pb-4 focus:border-[#444444] transition-all">
+    <button className="w-full cursor-pointer group mb-10 block border-b border-[#181818] pb-4 focus:border-[#444444] transition-all">
       <span className="flex items-center justify-between">
         <span className="flex items-center gap-2 md:gap-10">
           <span className="block">
