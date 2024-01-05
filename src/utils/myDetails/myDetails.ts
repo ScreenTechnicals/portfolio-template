@@ -1,10 +1,12 @@
 // Author Details
 
 type SocialMediaLinks = {
-  github: "";
-  instagram?: "";
-  facebook?: "";
-  x?: "";
+  github: string;
+  instagram?: string;
+  facebook?: string;
+  x?: string;
+  youtube?: string;
+  linkedin?: string;
 };
 
 type MyDetails = {
@@ -13,6 +15,7 @@ type MyDetails = {
   lastName: string;
   aboutMe: string;
   profession: string;
+  email: string;
   experience: number;
   socialMediaLinks?: SocialMediaLinks;
 };
@@ -25,11 +28,14 @@ const aboutMe: string =
 
 const profession = "fullstack developer";
 const experience: number = 4;
+const email: string = "chinmayasa09@gmail.com";
 const socialMediaLinks: SocialMediaLinks = {
-  github: "",
-  instagram: "",
+  github: "https://github.com/ScreenTechnicals",
+  instagram: "https://instagram.com/devverse.io",
   facebook: "",
-  x: "",
+  x: "https://twitter.com/ChinmaySa1",
+  youtube: "https://www.youtube.com/@Dev_Verse",
+  linkedin: "https://www.linkedin.com/in/chinmaya-sa-60a594239/",
 };
 
 const myDetails: MyDetails = {
@@ -38,6 +44,7 @@ const myDetails: MyDetails = {
   lastName,
   aboutMe,
   profession,
+  email,
   experience,
   socialMediaLinks,
 };
