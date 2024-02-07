@@ -33,7 +33,7 @@ const Header = () => {
       <nav className="py-3 xl:block hidden px-4 border rounded-full space-x-10 border-[#292929]">
         {navLinks?.map((link, index) => (
           <Link href={link.path} key={index} className="p-2">
-            <span className="capitalize hover:text-[#fff] transition-all font-[200] text-sm text-gray-400">
+            <span className="capitalize hover:text-[#fff] transition-all font-[400] text-sm text-gray-400">
               {link?.name}
             </span>
           </Link>

@@ -6,11 +6,11 @@ type navLink = {
 const navLinks: Array<navLink> = [
   {
     name: "My Work",
-    path: "mywork",
+    path: "works",
   },
   {
     name: "About me",
-    path: "aboutme",
+    path: "about",
   },
   {
     name: "Experience",
@@ -21,8 +21,8 @@ const navLinks: Array<navLink> = [
     path: "blogs",
   },
   {
-    name: "Projects",
-    path: "projects",
+    name: "Reviews",
+    path: "reviews",
   },
 ];
 

@@ -1,13 +1,25 @@
 import Card from "@/components/Cards/Category/Card";
+import _404 from "@/components/Errors/_404";
 import React from "react";
-import { IoOpenOutline } from "react-icons/io5";
 
-const Section4 = () => {
+type CategoryPageProps = {
+  params: { __category: "works" | "blogs" };
+};
+
+const CategoryPage = ({ params }: CategoryPageProps) => {
+  const categoryName = params?.__category;
+  const isCorrectCategory =
+    categoryName === "works" || categoryName === "blogs";
+
+  if (!isCorrectCategory) {
+    return <_404 />;
+  }
+
   return (
-    <div className="w-full">
-      <p className="md:text-4xl text-2xl py-5 md:pt-10 md:px-10 font-[400]">
-        My Selected Works
-      </p>
+    <div className="px-10">
+      <h2 className="px-10 md:pb-5 pb-5 pt-10 text-3xl md:text-4xl font-[400]">
+        My {categoryName === "works" ? "Creations" : "Blogs"}
+      </h2>
       <div className="w-full  md:p-10 grid gap-10 grid-cols-1 xl:grid-cols-2">
         <Card
           path="/"
@@ -15,7 +27,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category={categoryName}
         />
         <Card
           path="/"
@@ -23,7 +35,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
         <Card
           path="/"
@@ -31,27 +43,19 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
         <Card
           path="/"
           image="/images/attendee.png"
-          title="Attendee 3.0"
+          title="Navigating the digital landscape a comprehensive guide to full-stack development and ui/ux design"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="blogs"
         />
-      </div>
-      <div className="flex items-center justify-center md:justify-end w-full my-10">
-        <button className="flex items-center gap-2 px-6 font-bold py-4 border rounded-full bg-black transition-all hover:invert border-[#444444]">
-          <span>View All</span>
-          <span>
-            <IoOpenOutline />
-          </span>
-        </button>
       </div>
     </div>
   );
 };
 
-export default Section4;
+export default CategoryPage;

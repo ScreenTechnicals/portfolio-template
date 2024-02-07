@@ -17,7 +17,7 @@ const Footer = () => {
   const { myName, profession, email, socialMediaLinks } = myDetails;
 
   return (
-    <footer className="w-full min-h-[35vh] md:px-20 py-5 p-5 flex justify-between lg:flex-row flex-col">
+    <footer className="w-full min-h-[35vh] md:px-20 py-10 p-5 flex justify-between lg:flex-row flex-col bg-[#0d0d0d]">
       <div className="lg:space-y-5 space-y-2 mb-7">
         <div className="flex items-center gap-1 xl:gap-2">
           <Link href={"/"}>
