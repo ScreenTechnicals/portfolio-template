@@ -15,7 +15,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
         <Card
           path="/"
@@ -23,7 +23,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
         <Card
           path="/"
@@ -31,7 +31,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
         <Card
           path="/"
@@ -39,7 +39,7 @@ const Section4 = () => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="projects"
+          category="works"
         />
       </div>
       <div className="flex items-center justify-center md:justify-end w-full my-10">

@@ -35,7 +35,7 @@ const CategoryPage = ({ params }: CategoryPageProps) => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="works"
+          category={categoryName}
         />
         <Card
           path="/"
@@ -43,7 +43,7 @@ const CategoryPage = ({ params }: CategoryPageProps) => {
           title="Attendee 3.0"
           subheading1="College's"
           subheading2="App"
-          category="works"
+          category={categoryName}
         />
         <Card
           path="/"
@@ -51,7 +51,7 @@ const CategoryPage = ({ params }: CategoryPageProps) => {
           title="Navigating the digital landscape a comprehensive guide to full-stack development and ui/ux design"
           subheading1="College's"
           subheading2="App"
-          category="blogs"
+          category={categoryName}
         />
       </div>
     </div>
